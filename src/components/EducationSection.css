@@ -80,7 +80,11 @@
 
 @media (max-width: 768px) {
   .education-section {
-    padding: 36px 20px 48px;
+    padding: 36px 16px 48px;
+  }
+
+  .education-card {
+    padding: 18px;
   }
 
   .education-meta {

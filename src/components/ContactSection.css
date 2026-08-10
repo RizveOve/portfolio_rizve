@@ -66,10 +66,19 @@
 
 @media (max-width: 768px) {
   .contact-section {
-    padding: 36px 20px 48px;
+    padding: 36px 16px 48px;
   }
 
   .contact-card {
-    padding: 24px;
+    padding: 20px;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
   }
 }

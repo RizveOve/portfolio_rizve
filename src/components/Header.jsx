@@ -1,7 +1,19 @@
+import { useState } from 'react'
 import heroImg from '../assets/rizve.jpg'
 import './Header.css'
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const navLinks = [
+    { href: '#home', label: 'Home' },
+    { href: '#experience', label: 'Experience' },
+    { href: '#education', label: 'Education' },
+    { href: '#skills', label: 'Skills' },
+    { href: '#projects', label: 'Projects' },
+    { href: '#contact', label: 'Contact' },
+  ]
+
   return (
     <header className="header" id="home">
       <nav className="navbar">
@@ -9,15 +21,42 @@ function Header() {
           Rizve Hasan
         </a>
 
+        <button
+          className="menu-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded={isMenuOpen}
+          onClick={() => setIsMenuOpen((open) => !open)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          {navLinks.map((link) => (
+            <a key={link.href} href={link.href} onClick={() => setIsMenuOpen(false)}>
+              {link.label}
+            </a>
+          ))}
         </div>
       </nav>
+
+      <div className={`mobile-drawer ${isMenuOpen ? 'open' : ''}`}>
+        <div className="mobile-drawer-backdrop" onClick={() => setIsMenuOpen(false)} />
+        <div className="mobile-drawer-panel">
+          <button className="drawer-close" type="button" onClick={() => setIsMenuOpen(false)} aria-label="Close menu">
+            ×
+          </button>
+          <div className="drawer-links">
+            {navLinks.map((link) => (
+              <a key={link.href} href={link.href} onClick={() => setIsMenuOpen(false)}>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <div className="hero">
         <div className="hero-copy">

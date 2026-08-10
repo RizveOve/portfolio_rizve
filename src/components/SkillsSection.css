@@ -84,6 +84,10 @@
 
 @media (max-width: 768px) {
   .skills-section {
-    padding: 36px 20px 48px;
+    padding: 36px 16px 48px;
+  }
+
+  .skills-card {
+    padding: 18px;
   }
 }

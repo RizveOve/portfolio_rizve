@@ -78,7 +78,17 @@
 
 @media (max-width: 768px) {
   .experience-section {
-    padding: 36px 20px 48px;
+    padding: 36px 16px 48px;
+  }
+
+  .experience-list {
+    gap: 12px;
+    padding: 4px 0 12px;
+  }
+
+  .experience-card {
+    flex-basis: 85vw;
+    padding: 18px;
   }
 
   .experience-meta {
