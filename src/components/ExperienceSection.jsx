@@ -11,6 +11,19 @@ function ExperienceSection() {
       <div className="experience-list">
         <article className="experience-card">
           <div className="experience-meta">
+            <h3>Founder & Digital Consultant — <a href="https://vev-kraft.no" target="_blank" rel="noreferrer">VevKraft</a>, Oslo</h3>
+            <span>Present</span>
+          </div>
+          <ul>
+            <li>Advise SMEs on practical AI integration and digital solutions, translating business needs into secure, maintainable solution designs for clients across hospitality, retail and technology.</li>
+            <li>Deliver web development, cloud migration, AI integration and maintenance end-to-end, from requirements and architecture decisions through implementation and ongoing operation.</li>
+            <li>Designed and run an agent-based automation workflow: scheduled AI agents that plan weekly work and commit daily progress across four GitHub repositories, covering orchestration, integration and authentication design.</li>
+            <li>Embed accessibility and universal design requirements (Norwegian legal standards) into client solutions as a core architecture principle.</li>
+          </ul>
+        </article>
+
+        <article className="experience-card">
+          <div className="experience-meta">
             <h3>Software Engineering Intern — Nordic Digi Solutions, Norway</h3>
             <span>Dec 2025 – May 2026</span>
           </div>

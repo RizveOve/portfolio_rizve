@@ -12,7 +12,7 @@ function ContactSection() {
         </p>
 
         <div className="contact-actions">
-          <a href="mailto:thisisrizve@gmail.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+          <a href="mailto:rizve@vev-kraft.no" target="_blank" rel="noreferrer" className="btn btn-primary">
             Email
           </a>
           <a href="tel:+4794729244" target="_blank" rel="noreferrer" className="btn btn-secondary">

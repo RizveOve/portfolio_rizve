@@ -59,6 +59,10 @@
   font-size: 1rem;
 }
 
+.experience-meta h3 a {
+  color: inherit;
+}
+
 .experience-meta span {
   color: #64748b;
   font-size: 0.95rem;

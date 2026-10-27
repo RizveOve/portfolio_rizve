@@ -70,9 +70,14 @@ function Header() {
             DevOps-oriented teams.
           </p>
 
-          <a className="btn btn-primary hero-cta" href="#contact">
-            Get in touch
-          </a>
+          <div className="hero-actions">
+            <a className="btn btn-primary hero-cta" href="#contact">
+              Get in touch
+            </a>
+            <a className="btn btn-secondary hero-cta" href="/Rizve_Hasan_CV.pdf" target="_blank" rel="noreferrer">
+              View CV
+            </a>
+          </div>
         </div>
 
         <div className="hero-card">
