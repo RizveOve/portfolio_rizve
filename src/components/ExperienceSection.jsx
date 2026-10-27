@@ -15,10 +15,9 @@ function ExperienceSection() {
             <span>Present</span>
           </div>
           <ul>
-            <li>Advise SMEs on practical AI integration and digital solutions, translating business needs into secure, maintainable solution designs for clients across hospitality, retail and technology.</li>
-            <li>Deliver web development, cloud migration, AI integration and maintenance end-to-end, from requirements and architecture decisions through implementation and ongoing operation.</li>
-            <li>Designed and run an agent-based automation workflow: scheduled AI agents that plan weekly work and commit daily progress across four GitHub repositories, covering orchestration, integration and authentication design.</li>
-            <li>Embed accessibility and universal design requirements (Norwegian legal standards) into client solutions as a core architecture principle.</li>
+            <li>Advise SMEs on practical AI integration, translating business needs into secure, maintainable solution designs.</li>
+            <li>Deliver web development, cloud migration and AI integration end-to-end, from architecture decisions through ongoing operation.</li>
+            <li>Built an agent-based automation workflow where scheduled AI agents plan and commit daily work across four GitHub repositories.</li>
           </ul>
         </article>
 
